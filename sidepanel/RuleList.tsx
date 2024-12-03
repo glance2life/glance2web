@@ -16,7 +16,6 @@ const RuleList: FC<IProp> = ({ open, setOpen }) => {
   const [showForm, setShowForm] = useState(false)
   const [editingRule, setEditingRule] = useState<Rule>()
   const [rules, setRules] = useStorage<Rule[]>("rules", [])
-  console.log('🔥editingRule', editingRule);
 
   return (
     <>
